@@ -1,9 +1,6 @@
 module.exports = {
     build: {
-        watch: {
-            include: ['src/**/*', 'index.html']
-        },
-        minify: false,
+        minify: true,
     },
     plugins: [
        
